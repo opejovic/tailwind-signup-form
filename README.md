@@ -1,10 +1,14 @@
-# sign-up-page
+# Simple yet beautiful open source subscription sign-up form built in Vue cli with TailwindCSS.
 
 ## Project setup
 ```
 npm install
 ```
 
+### Install Tailwind
+```
+npm install tailwindcss
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -13,11 +17,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
 ```
 
 ### Lints and fixes files
