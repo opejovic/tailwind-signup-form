@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="min-h-screen bg-gray-300 backg">
+  <div id="app" class="min-h-screen bg-gray-300 background-curve">
     <div class="container mx-auto px-6">
       <header class="flex items-center justify-between py-6">
         <button type="button">
@@ -13,7 +13,7 @@
         <div>
           <a
             href="#"
-            class="border-b-2 hover:border-purple-600 text-purple-900 text-sm font-normal leading-loose"
+            class="border-b-2 border-transparent hover:border-purple-600 text-purple-900 text-sm font-normal leading-loose"
             >Log In</a
           >
         </div>
@@ -98,7 +98,7 @@
   @tailwind components;
   @tailwind utilities;
 
-  .backg {
+  .background-curve {
 	background-image: url(./assets/curve.svg);
 	background-position-x: center;
     background-position-y: bottom;
@@ -108,6 +108,5 @@
     background-attachment: fixed;
     background-origin: initial;
     background-clip: initial;
-    /* background-color: rgb(12, 24, 36); */
   }
 </style>
