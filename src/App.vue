@@ -99,8 +99,8 @@
   @tailwind utilities;
 
   .background-curve {
-	background-image: url(./assets/curve.svg);
-	background-position-x: center;
+    background-image: url(./assets/curve.svg);
+    background-position-x: center;
     background-position-y: bottom;
     background-size: 5153px 200px;
     background-repeat-x: no-repeat;
